@@ -41,15 +41,15 @@ Hello! my name *{}*.
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
  - /settings:
-   - in PM: will send you your settings for all supported modules.
+   - in PM: will send you your sehttpsttings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
-
-TECHNO_IMG = "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg"
+https
+TECHNO_IMG = "https://telegra.ph/file/95802e32c894ffe9b29c7.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -142,11 +142,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/teamishere")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
+                                                                       url="t.me/Toxic_OwnerOP")],
+                                                                                   [InlineKeyboardButton(text="ADD TOXIC GROUP MANAGEMENT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="")
                                                                                  ]]))
 
     else:
