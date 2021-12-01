@@ -146,11 +146,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="ADD TOXIC GROUP MANAGEMENT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="")
+                                                                       url="https://t.me/TOXIC_CRACKS")
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am Already ONline")
+        update.effective_message.reply_text("ZINDA HU 😂BHAI⚡⚡")
 
 
 def send_start(bot, update):
